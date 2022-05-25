@@ -41,6 +41,10 @@
   background-color: #e7c1f9;
 }
 
+.square-3 {
+  background-color: #84f9c1;
+}
+
 .main-section__cont-houses {
   height: 70%;
 }
@@ -63,6 +67,7 @@
   column-gap: 48px;
   padding: 29px 0 0 25px;
 }
+
 .window {
   width: 59px;
   height: 65px;
@@ -94,6 +99,7 @@
   top: 0px;
   left: 78px;
 }
+
 .house-purple__wrapper {
   display: flex;
   flex-direction: row;
@@ -101,11 +107,13 @@
   row-gap: 24px;
   padding-top: 43px;
 }
+
 .wrapper__window {
   width: 46px;
   height: 47px;
   background: #84cef9;
 }
+
 .wrapper__window:nth-child(1) {
   margin-left: 23px;
   margin-right: 45px;
@@ -115,10 +123,12 @@
   margin-left: 40px;
   margin-right: 45px;
 }
+
 .wrapper__window:nth-child(5) {
   margin-left: 32px;
   margin-right: 45px;
 }
+
 .wrapper__window:hover {
   display: block;
   background-color: yellow;
@@ -131,4 +141,41 @@
   position: absolute;
   left: 98px;
   bottom: 0;
+}
+
+/* Sanjar house-3*/
+
+.house-green {
+  display: inline-block;
+  width: 260px;
+  height: 289px;
+  background: #84f9c1;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  top: 167px;
+}
+
+.house-green__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 55px);
+  grid-template-rows: repeat(3, 50px);
+  row-gap: 26px;
+  column-gap: 16px;
+  padding: 44px 0 0 30px;
+}
+
+.house-green__window {
+  width: 55px;
+  height: 50px;
+  background: #e7c1f9;
+}
+
+.house-green__door {
+  position: absolute;
+  left: 101px;
+  bottom: 0px;
+  width: 63px;
+  height: 94px;
+  background: #ffecbb;
 }
