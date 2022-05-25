@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0px 177px 0px;
+}
+
+.main-section{
+    width: 582px;
+    height: 1200px;
+    background-color: aqua;
+}
+
+.main-section__cont-names{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-section__list-name{
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.square{
+    width: 23px;
+    height: 23px;
+    background-color: blue;
+    margin-right: 22px;
+}
+
+.main-section__cont-houses{
+    height: 70%;
+}
