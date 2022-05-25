@@ -33,6 +33,48 @@
     margin-right: 22px;
 }
 
+.square-1 {
+    background-color: #FFECBB;
+}
+
 .main-section__cont-houses{
     height: 70%;
 }
+
+/* Elzar house-1*/
+.house-yellow {
+    display: inline-block;
+    width: 226px;
+    height: 337px;
+    top: 43px;
+    left: 30px;
+    background-color: #ffecbb;
+    position: relative;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 59px 59px;
+    grid-template-rows: 65px 65px 65px;
+    row-gap: 35px;
+    column-gap: 48px;
+    padding: 29px 0 0 25px;
+  }
+  .window {
+    width: 59px;
+    height: 65px;
+    background-color: #84f9c1;
+  }
+  
+  .window:hover {
+    display: block;
+    background-color: yellow;
+    }
+  
+  .door {
+    position: absolute;
+    width: 57px;
+    height: 81px;
+    background: #84cef9;
+    left: 126px;
+    bottom: 0px;
+  }
